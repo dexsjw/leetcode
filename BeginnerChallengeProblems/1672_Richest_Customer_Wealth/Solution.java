@@ -15,6 +15,22 @@ public class Solution {
 
         System.out.println("Wealth of Richest Customer: " + maxWealth);
         return maxWealth;
+
+        /* Model Solution */
+        // int maxWealthSoFar = 0;
+
+        // for (int[] customer : accounts) {
+        //     int currentCustomerWealth = 0;
+
+        //     for (int bank : customer) {
+        //         currentCustomerWealth += bank;
+        //     }
+
+        //     maxWealthSoFar = Math.max(maxWealthSoFar, currentCustomerWealth);
+        // }
+
+        // return maxWealthSoFar;
+
     }
 
     public static void main(String[] args) {
