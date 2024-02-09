@@ -34,7 +34,7 @@ public class Solution {
         // return Arrays.asList(answer);
         return answer;
 
-        /* Model Solution */
+        /* Model Solution - Concatenation */
         // List<String> answer = new ArrayList<>(n);
 
         // for (int i = 1; i <= n; i++) {
