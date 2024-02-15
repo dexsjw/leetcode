@@ -54,6 +54,18 @@ public class Solution {
         }
 
         return listNode;
+
+        /* Model Solution */
+        // ListNode middle = head;
+        // ListNode end = head;
+
+        // while (end != null && end.next != null) {
+        //     middle = middle.next;
+        //     end = end.next.next;
+        // }
+
+        // return middle;
+
     }
 
     public static void main(String[] args) {
